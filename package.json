@@ -1,0 +1,12 @@
+{
+  "name": "markserv-mod-dir",
+  "version": "1.0.0",
+  "description": "Serve a Github-like directory listing",
+  "main": "mod/dir.mod.js",
+  "template": "mod/dir.tpl.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "f1lt3r",
+  "license": "GPL-3.0"
+}
