@@ -8,5 +8,25 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "f1lt3r",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "xo": {
+    "esnext": true,
+    "space": 2,
+    "globals": [
+      "it" ,
+      "describe",
+      "beforeEach"
+    ],
+    "rules": {
+      "import/no-dynamic-require": 0
+    },
+    "overrides": [
+      {
+        "files": "**/Markconf.*",
+        "rules": {
+          "unicorn/filename-case": ["error", {"case": "pascalCase"}]
+        }
+      }
+    ]
+  }
 }
