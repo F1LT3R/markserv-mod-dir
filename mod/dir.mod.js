@@ -1,6 +1,6 @@
 const Markserv = require('markserv-cli');
 
-Markserv.plugin.modifier(module, (Markconf, template) => {
+Markserv(plugin => {
   return requestPath => {
     return new Promise((resolve, reject) => {
 
